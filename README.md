@@ -4,7 +4,7 @@ This software is a set of two classes who's purpose is to be used in an interact
 
 The classes are Database, a class used to read and write to and from an sqlite database, and Character, a compact class used for storing volatile character data during runtime. The Database class is capable of "preparing" instances of the Character class to be used for runtime processing. Character classes are capable of using their linked Database to "save" the changes made to them before destruction.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/XHD3B0O4Xi8)
 
 # Classes
 
