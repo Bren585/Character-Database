@@ -13,7 +13,7 @@ The classes are Database, a class used to read and write to and from an sqlite d
 ### Methods
 
 |Method|Paramaters|Functionality|
-|-|-|-|-|
+|-|-|-|
 |\_\_init\_\_|None|Connects to the sqlite database, or creates it if it does not exist. If necessary, populates the "gender" table.|
 |\_\_del\_\_|None|Close the connection and commit changes.|
 |execute|None|Executes an SQL command.|
@@ -36,7 +36,7 @@ The classes are Database, a class used to read and write to and from an sqlite d
 ### Methods
 
 |Method|Paramaters|Functionality|
-|-|-|-|-|
+|-|-|-|
 |\_\_init\_\_|Database db, String name| Initialize a character from the data stored in db with the name "name," or create one if it does not exist.|
 |\_\_repr\_\_|N/A|Called during the global print function.|
 |save|None|Update db's values regarding this character to reflect the data stored in this object|
